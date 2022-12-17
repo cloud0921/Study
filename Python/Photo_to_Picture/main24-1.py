@@ -6,7 +6,7 @@ import cv2
 
 
 # 이미지 불러오기
-ff=np.fromfile(r'c:\Users\user\Desktop\Python\Python\Practice\Photo_to_Picture\cake.jpg', np.uint8 )
+ff=np.fromfile(r'C:\Users\user\Desktop\Study\Python\Photo_to_Picture\cake.jpg', np.uint8 )
 # 1. numpy.savetxt(), numpy.loadtxt()   텍스트 파일로 Numpy배열 저장및 로드 .txt
 # 2. numpy.tofile(), numpy.fromfile()   이진 파일로 Numpy배열 저장및 로드 .dat(이미지도!)
 # 3. numpy.save(), numpy.load()         Numpy배열 파일 저장및 로드 .npy
