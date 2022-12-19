@@ -14,3 +14,6 @@ if picPosition is None:
 if picPosition is None:
     picPosition = pyautogui.locateOnScreen('pic3.png')
     print(picPosition)
+if picPosition is None:
+    picPosition = pyautogui.locateOnScreen('pic4.png')
+    print(picPosition)
